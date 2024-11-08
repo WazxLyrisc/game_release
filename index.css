@@ -125,9 +125,11 @@ header .image-text .header-text{
     color: var(--sidebar-color);
 }
 .sidebar .menu-bar{
-    background: red;
-    height: 100%;
+    height: calc(100% + 50px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.menu-bar .mode{
+    background: var(--primary-color-light) ;
 }

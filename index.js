@@ -4,13 +4,17 @@ const body = document.querySelector("body"),
       searchBtn = body.querySelector(".search-box"),
       modeSwtich = body.querySelector(".toggle-switch"),
       modeText = body.querySelector(".mode-text");
-
-      toggle.addEventListener("click" ,() => {
+      
+      toggle.addEventListener("click", () =>{
         sidebar.classList.toggle("close");
-      })
+      });
 
 
-
-      modeSwtich.addEventListener("click", () => {
+      modeSwtich.addEventListener("click", () =>{
         body.classList.toggle("dark");
-      })
+        if(body.classList.contains("dark")){
+          modeText.innerText = "Light mode"
+        }else{f
+          modeText.innerText = "Dark mode"
+        }
+      });

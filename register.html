@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Register</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
     <nav class="sidebar close">
@@ -49,19 +49,19 @@
                         <li class="nav-link">
                             <a href="#">
                                 <i class="bx bx-pie-chart-alt icon"></i>
-                                <span class="text nav-text">Analytics</span>
+                                <span class="text nav-text">More time to play</span>
                             </a>
                         </li>
-                        <!-- <li class="nav-link">
+                        <li class="nav-link">
                             <a href="#">
                                 <i class="bx bx-heart icon"></i>
                                 <span class="text nav-text">Likes</span>
                             </a>
-                        </li> -->
+                        </li>
                         <li class="nav-link">
                             <a href="#">
-                                <i class="bx bx-wallet icon"></i>
-                                <span class="text nav-text">Wallets</span>
+                                <i class="bx bx-dollar icon"></i>
+                                <span class="text nav-text">Money</span>
                             </a>
                         </li>
                     </ul>
@@ -86,12 +86,41 @@
                 </div>
             </div>
     </nav>
-<section class="popular container" id="popular">
-    <!--heading-->
-    <div class="heading">
-        <h2 class="heading-title">Popular Games</h2>
+
+    
+    <div class="wrapper">
+        <form action="">  <!--tạo biểu mẫu HTML để người dùng nhập dữ liệu-->
+            <h1>Sign Up</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required> <!--trường nhập văn bản một dòng, định dạng từng loại văn bản-->
+                <i class='bx bx-lock-alt'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Rewrite Password" required>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+            <div class="input-box">
+                <input type="date" required>
+                <i class='bx bx-cake'></i>
+            </div>
+            <div class="input-box">
+                <input type="number" required>
+                <i class='bx bx-phone'></i>
+            </div>
+            <div class="remember-forgot">
+                <label for=""><input type="checkbox">Remember me</label>
+                <a href="#">About</a>
+            </div>
+            <button class="btn" type="submit">Sign Up</button> <!--một nút có thể nhấp được-->
+            <div class="register-link">
+                <p>You have a account? <a href="#">Login</a></p>
+            </div>
+        </form>
     </div>
-</section>
-    <script src="index.js"></script>
+    <script src="register.js"></script>
 </body>
 </html>

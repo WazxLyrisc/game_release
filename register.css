@@ -227,6 +227,7 @@ body.dark .menu-bar .mode i .moon{
 body.dark .switch::before{
     left: 24px;
 }
+/*-------Login-------*/
 .navbar{
     position: relative;
     left: 300px;
@@ -299,7 +300,7 @@ body{
 
 
 .navigation .btnLogin-popup:hover{
-    background: #fff;
+    background: #000;
     color: #162938;
 }    
 
@@ -310,7 +311,7 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
+    color: #000;
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -334,11 +335,11 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     padding: 20px 45px 20px 20px;
 }
 .input-box input::placeholder{
-    color: #fff;
+    color: #000;
 }
 .input-box i{
     position: absolute;
@@ -354,11 +355,11 @@ body{
     margin: -15px 0 15px;
 }
 .remember-forgot label input{
-    accent-color: #fff;
+    accent-color: #000;
     margin-right: 3px;
 }
 .remember-forgot a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .remember-forgot a:hover{
@@ -382,7 +383,8 @@ body{
     margin: 20px 0 15px;
 }
 .register-link p a{
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     text-decoration: none;
     font-weight: 600;
 }

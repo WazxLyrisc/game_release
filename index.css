@@ -235,7 +235,6 @@ body.dark .switch::before{
     width: calc(100% - 250px);
     background: var(--body-color);
     transition: var(--tran-05);
-    display: flex;
     justify-content: space-between;
     padding: 8px 14px;
 }
@@ -257,3 +256,29 @@ body.dark .switch::before{
     height: 100vh;
     width: calc(100% - 88px);
 } */
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+  .game-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .game-card img {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  .game-info {
+    margin-top: 10px;
+  }
+  .game-info p {
+    margin: 5px 0;
+  }

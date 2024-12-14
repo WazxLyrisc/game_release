@@ -229,13 +229,13 @@ body.dark .switch::before{
 }
 
 .home{
+    display: block;
     position: relative;
     left: 250px;
     height: 100vh;
     width: calc(100% - 250px);
     background: var(--body-color);
     transition: var(--tran-05);
-    display: flex;
     justify-content: space-between;
     padding: 8px 14px;
 }
@@ -257,3 +257,113 @@ body.dark .switch::before{
     height: 100vh;
     width: calc(100% - 88px);
 } */
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+  .game-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .game-card img {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  .game-info {
+    margin-top: 10px;
+  }
+  .game-info p {
+    margin: 5px 0;
+  }
+
+footer {
+    background-color: var(--primary-color) ;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons i {
+    color: #fff;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: #fff;
+    transition: 0, 5s;
+}
+
+.footerNav {
+    margin: 5px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #444444;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: #fff;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+}

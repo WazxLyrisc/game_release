@@ -247,14 +247,17 @@ body.dark .switch::before{
 } */
 
 .wrapper{
+    margin-top: 200px;
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
+    color: #000;
     border-radius: 10px;
     padding: 30px 40px;
+    margin-bottom: 100px;
+    margin-left: 600px;
 }
 .wrapper h1{
     font-size: 36px;
@@ -275,11 +278,11 @@ body.dark .switch::before{
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
+    color: #000; 
     padding: 20px 45px 20px 20px;
 }
 .input-box input::placeholder{
-    color: #fff;
+    color: #000;
 }
 .input-box i{
     position: absolute;
@@ -295,11 +298,11 @@ body.dark .switch::before{
     margin: -15px 0 15px;
 }
 .remember-forgot label input{
-    accent-color: #fff;
+    accent-color: #000;
     margin-right: 3px;
 }
 .remember-forgot a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .remember-forgot a:hover{
@@ -323,11 +326,99 @@ body.dark .switch::before{
     margin: 20px 0 15px;
 }
 .register-link p a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-weight: 600;
 }
 .register-link p a:hover{
     text-decoration: underline;
 
+}
+
+.home{
+    display: block;
+}
+
+footer {
+    background-color: var(--primary-color) ;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons i {
+    color: #000;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: #fff;
+    transition: 0, 5s;
+}
+
+.footerNav {
+    margin: 5px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: #000;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #444444;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: #000;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
 }

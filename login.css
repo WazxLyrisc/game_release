@@ -357,18 +357,18 @@ footer {
 .socialIcons a {
     text-decoration: none;
     padding: 10px;
-    background-color: #000;
+    background-color: #fff;
     margin: 10px;
     border-radius: 50%;
 }
 
 .socialIcons i {
-    color: #000;
+    color: #fff;
 }
 
 .socialIcons a i {
     font-size: 2em;
-    color: #000;
+    color: #fff;
     opacity: 0.9;
 }
 
@@ -393,7 +393,7 @@ footer {
 }
 
 .footerNav ul li a {
-    color: #000;
+    color: #fff;
     margin: 20px;
     text-decoration: none;
     font-size: 1.1em;
@@ -412,7 +412,7 @@ footer {
 }
 
 .footerBottom p {
-    color: #000;
+    color: #fff;
 }
 
 .designer {
